@@ -23,7 +23,10 @@
   "homepage": "https://github.com/balena-io-playground/balenablock-template#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "fs-extra": "^10.0.0",
+    "swagger-autogen": "^2.6.3",
     "swagger-ui-express": "^4.1.6",
-    "swagger-autogen": "^2.6.3"
+    "tar-fs": "^2.1.1",
+    "zlib": "^1.0.5"
   }
 }
