@@ -2,12 +2,12 @@ version: "2.1"
 volumes:
   files:
 services:
-  file-block:
+  file-transfer:
     build:
       context: .
     restart: always
     volumes:
       - 'files:/data'
-    #image: ghcr.io/balena-io-playground/cron-block:latest
+    #image: ghcr.io/balena-io-playground/file-transfer:latest
     ports:
       - "80:3000"
