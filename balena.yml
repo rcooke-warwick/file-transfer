@@ -14,10 +14,12 @@ assets:
     data:
       url: 'https://raw.githubusercontent.com/rcooke-warwick/file-transfer/master/docs/images/icon.png'
 data:
-  defaultDeviceType: raspberrypi3
+  defaultDeviceType: raspberrypi4-64
   supportedDeviceTypes:
     - raspberrypi3
-    - raspberrypi4-64
-    - fincm3
-    - intel-nuc
     - raspberrypi3-64
+    - intel-nuc
+    - genericx86-64-ext
+    - raspberrypi400-64
+    - jetson-nano
+    - fincm3
