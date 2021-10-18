@@ -17,7 +17,7 @@ volumes:
 services:
   file-transfer:
     restart: always
-    image: ghcr.io/balena-io-playground/file-transfer:latest
+    image: ghcr.io/rcooke-warwick/file-transfer:latest
     volumes:
       - 'files:/data'
     ports:
